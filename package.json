@@ -1,0 +1,32 @@
+{
+  "name": "jhow",
+  "version": "1.0.0",
+  "description": "API de cadastro de itens",
+  "main": "src/index.js",
+  "author": "Fabricio Dias",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "lint": "eslint src",
+    "lint-fix": "eslint src --fix"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhow123/prova-p1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhow123/prova-p1/issues"
+  },
+  "homepage": "https://github.com/jhow123/prova-p1#readme"
+}
