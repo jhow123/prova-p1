@@ -1,11 +1,12 @@
 // Importando a biblioteca Express
-import express from 'express';
+const express = require('express');
+
 
 // Criando uma instância do Express
 const app = express();
 
 // Importando as rotas
-import routes from './routes';
+const routes = require('./routes');
 
 // Definindo o uso do middleware para lidar com JSON
 app.use(express.json());

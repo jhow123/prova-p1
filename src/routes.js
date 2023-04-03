@@ -1,8 +1,8 @@
 // Importando o Router do Express
-import { Router } from 'express';
+const { Router } = require('express');
 
 // Importando o controller de produtos
-import ProductController from './app/controllers/ProductController';
+const ProductController = require('./app/controllers/ProductController');
 
 // Criando uma instância do Router
 const router = Router();
@@ -15,4 +15,4 @@ router.post('/produtos', ProductController.store);
 router.put('/produtos/:id', ProductController.update);
 
 // Exportando o Router
-export default router;
+module.exports = router;
